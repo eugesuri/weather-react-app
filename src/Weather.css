@@ -1,6 +1,3 @@
 .Weather {
-  padding: 50px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
-  background-color: pink(255, 213, 235, 0.544);
+  text-align: center;
 }

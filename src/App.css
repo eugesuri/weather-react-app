@@ -1,6 +1,14 @@
 .App {
-  margin-top: 40px;
-  max-width: 600px;
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+  background-color: linear-gradient(
+    175deg,
+    rgb(252, 115, 247) 0%,
+    rgb(233, 237, 237) 100%
+  );
+  border-radius: 100px;
+  margin-left: 250px;
 }
 
 body {

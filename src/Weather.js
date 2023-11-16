@@ -29,7 +29,7 @@ export default function SearchEngine(props) {
 
   return (
     <div>
-      <h1>Search Engine</h1>
+      <h1 className="Search-engine">Search Engine</h1>
       <form onSubmit={handleSubmit}>
         <input type="search" onChange={updateCity} />
         <input type="submit" value="Search" />
