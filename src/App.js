@@ -1,7 +1,18 @@
 import "./App.css";
+import React from "react";
 
 function App() {
-  return <div className="App">Weather App </div>;
+  return (
+    <div className="App">
+      <footer>
+        This project was coded by Eugenia Brunetti Ehnimb and is open-sourced on
+        <a href="https://github.com/eugesuri/weather-react-app" target="_blank">
+          {" "}
+          Github{" "}
+        </a>{" "}
+      </footer>{" "}
+    </div>
+  );
 }
 
 export default App;
