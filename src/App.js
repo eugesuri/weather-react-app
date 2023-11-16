@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <footer className="footer">
@@ -14,5 +14,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
